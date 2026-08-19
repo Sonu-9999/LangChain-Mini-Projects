@@ -1,0 +1,2 @@
+Customer:I want a refund
+AI:You will get your refund in 3-5 business days
