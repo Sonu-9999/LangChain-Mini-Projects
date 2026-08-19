@@ -17,7 +17,7 @@ class Review(TypedDict):
     # summary: str
     # sentiment: str
     summary:Annotated[str, "A brief summary of the review"]
-    sentiment:Annotated[str, "Whether the review is positive, negative or neutral"]
+    sentiment:Annotated[str,  "Whether the review is positive, negative or neutral"]
     pros:Annotated[Optional[list[str]],"Write down all the pros inside a list"]
 structured_model=model.with_structured_output(Review)
 
